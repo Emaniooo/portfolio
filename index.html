@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eman Fethi – Frontend Developer</title>
+  <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Dancing+Script:wght@400..700&family=Great+Vibes&display=swap" rel="stylesheet">
+<body>
+  <canvas id="particles"></canvas>
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-logo">Eman</div>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+<ul class="nav-links" id="navLinks">     
+    <li><a href="#about">Om mig</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Mina Projekter</a></li>
+      <li><a href="#contact">Kontakta mig</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="theme-switch-wrapper">
+  <div class="theme-switch" id="themeToggle">
+    <span class="switch-emoji">🌙</span>
+  </div>
+</div>
+
+
+  <header class="hero">
+    <div class="hero-content">
+      <span class="pill"><span class="dot"></span> Frontend Developer Student</span>
+<h1 class="float">Eman Fethi</h1>
+      <p class="tagline">
+        Jag bygger moderna, tillgängliga och responsiva gränssnitt med fokus på HTML, CSS och JavaScript.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="mailto:eman.abuleker@yh.nackademin.se" class="btn primary">Kontakta mig</a>
+        <a href="https://www.linkedin.com/in/eman-fethi-346ba4221/" class="btn">LinkedIn</a>
+      </div>
+    </div>
+  </header>
+
+<section class="section reveal" id="about">
+
+  <div class="about-wrapper">
+
+    <!-- BILD -->
+    <div class="about-image">
+      <img src="her3.jpg" alt="Eman Fethi">
+      <p class="lia">
+      Jag söker LIA‑plats under perioden <br> 7 dec 2026 – 26 apr 2027</p>
+    </div>
+
+    <!-- TEXT -->
+    <div class="about-content">
+
+      <h2 class="about-title">Om mig</h2>
+
+      <h3>Hej! Jag är Eman</h3>
+  <p class="about-text">
+    Frontend‑student som brinner för att skapa moderna, responsiva och tydliga gränssnitt.
+    Jag älskar att bygga websidor som känns rena, snabba och intuitiva — och jag utvecklas varje dag
+    genom att utforska HTML, CSS, JavaScript och smarta arbetsflöden.
+    Jag lär mig snabbt, gillar att samarbeta och strävar alltid efter att göra saker lite bättre
+    än de behöver vara.
+  </p>
+
+  <a href="#projects" class="btn primary about-cta">Se mina projekt</a>
+
+      <div class="about-tags">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">UX</span>
+        <span class="tag">Responsiv design</span>
+        <span class="tag">Teamwork</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section reveal" id="skills">
+  <h2>Mina Skills</h2>
+
+  <div class="skills-grid">
+
+    <div class="skill-box">
+      <div class="skill-icon html"></div>
+      <h4>HTML5</h4>
+      <p>Struktur, semantik och ren markup.</p>
+    </div>
+
+    <div class="skill-box">
+      <div class="skill-icon css"></div>
+      <h4>CSS3 / SCSS</h4>
+      <p>Layout, grid, flexbox, animationer.</p>
+    </div>
+
+    <div class="skill-box">
+      <div class="skill-icon js"></div>
+      <h4>JavaScript</h4>
+      <p>DOM, events, API‑anrop, ES6.</p>
+    </div>
+
+    <div class="skill-box">
+      <div class="skill-icon figma"></div>
+      <h4>Figma</h4>
+      <p>Wireframes, UI‑design, prototyper.</p>
+    </div>
+
+    <div class="skill-box">
+      <div class="skill-icon github"></div>
+      <h4>GitHub Desktop</h4>
+      <p>Versionering, commits, branches.</p>
+    </div>
+
+    <div class="skill-box">
+      <div class="skill-icon agile"></div>
+      <h4>Agile</h4>
+      <p>Scrum, sprintar, standups, teamwork.</p>
+    </div>
+
+    <div class="skill-box">
+      <div class="skill-icon responsive"></div>
+      <h4>Responsiv design</h4>
+      <p>Media queries, mobil‑först, tillgänglighet.</p>
+    </div>
+
+    <div class="skill-box">
+      <div class="skill-icon ux"></div>
+      <h4>UX Design</h4>
+      <p>User research, information architecture, usability testing.</p>
+    </div>
+
+    <div class="skill-box">
+      <div class="skill-icon performance"></div>
+      <h4>Performance</h4>
+      <p>Optimering, laddningstider, bildkomprimering.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="section reveal" id="projects">
+  <h2>Mina Projekter</h2>
+  <p class="projects-sub">En liten trädgård av saker jag har byggt.</p>
+
+<div class="carousel-wrapper projects-carousel">
+
+  <!-- PILAR -->
+  <button class="projects-carousel-btn" id="projectsPrev">←</button>
+  <button class="projects-carousel-btn" id="projectsNext">→</button>
+
+  <!-- TRACK -->
+  <div class="carousel-track" id="projectsTrack">
+
+    <!-- PROJECT 1 -->
+    <div class="project-card">
+      <div class="project-thumb">
+        <video src="vid/pet.mp4" autoplay muted loop playsinline></video>
+      </div>
+      <h3>Tamagotchi Game</h3>
+      <p>Ett virtuellt Tamagotchi‑spel där du skapar ett eget djur och tar hand om det genom att hålla koll på energi, hunger och glädje.</p>
+      <div class="project-links">
+        <a href="https://emaniooo.github.io/petnew/" class="btn small" target="_blank">Demo</a>
+        <a href="https://github.com/Emaniooo/petnew" class="btn small" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <!-- PROJECT 2 -->
+    <div class="project-card">
+      <div class="project-thumb">
+        <video src="vid/quiz.mp4" autoplay muted loop playsinline></video>
+      </div>
+      <h3>Sverige‑Quiz</h3>
+      <p>Ett lekfullt och humoristiskt Sverige‑quiz där du får testa dina kunskaper om allt från traditioner och kultur till oväntade fun facts.</p>
+      <div class="project-links">
+        <a href="https://emaniooo.github.io/javaprojekt1/" class="btn small">Demo</a>
+        <a href="https://github.com/Emaniooo/javaprojekt1" class="btn small">GitHub</a>
+      </div>
+    </div>
+
+    <!-- PROJECT 3 -->
+    <div class="project-card">
+      <div class="project-thumb">
+        <video src="vid/hotel.mp4" autoplay muted loop playsinline></video>
+      </div>
+      <h3>Asia Garden Hotel</h3>
+      <p>En komplett hotellwebbplats byggd i grupp med fokus på design, struktur och responsivitet. 
+  Innehåller flera undersidor samt navigering.</p>
+      <div class="project-links">
+        <a href="#" class="btn small" target="_blank">Demo</a>
+        <a href="#" class="btn small" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <!-- PROJECT 4 -->
+    <div class="project-card">
+      <div class="project-thumb">
+        <img src="img/progress.jpg" alt="in progress">
+      </div>
+      <h3>Currently creating🌟</h3>
+      <p>Every project becomes its own vibe — simple, fast, honest.</p>
+      <div class="project-links">
+        <a href="#" class="btn small">In progress</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+</section>
+
+  <!-- CONTACT -->
+  <section class="section reveal" id="contact">
+
+  <h2 class="section-title">Kontakta mig</h2>
+  
+<div class="contact-form-container">
+
+  <h3 class="form-title">Låt oss prata! Jag är alltid öppen för möjligheter</h3>
+  <p class="form-sub">
+    Har du en idé, ett projekt eller vill du bara säga hej? 
+    Skicka ett meddelande nedan så skapar vi något fantastiskt tillsammans!!
+  </p>
+
+<form class="contact-form" id="contactForm">
+  <input type="text" name="user_name" placeholder="Ange ditt namn" required>
+  <input type="email" name="user_email" placeholder="Ange ditt e‑post" required>
+  <textarea name="message" placeholder="Vad kan jag hjälpa dig med?" required></textarea>
+  <button type="submit" class="btn-form">Skicka meddelande</button>
+</form>
+
+
+</div>
+<br>
+  <div class="contact-grid">
+
+    <div class="contact-card">
+      <span class="contact-icon"><img src="img/gmail.png" alt="Email"></span>
+      <h3>Email</h3>
+      <a href="mailto:eman.abubeker@yh.nackademin.se">eman.abubeker@yh.nackademin.se</a>
+    </div>
+
+    <div class="contact-card">
+      <span class="contact-icon"><img src="img/linkedin.png" alt="LinkedIn"></span>
+      <h3>LinkedIn</h3>
+      <a href="https://www.linkedin.com/in/eman-fethi/" target="_blank">
+        linkedin.com/in/eman-fethi
+      </a>
+    </div>
+
+    <div class="contact-card">
+      <span class="contact-icon"><img src="img/git.png" alt="GitHub"></span>
+      <h3>GitHub</h3>
+      <a href="https://github.com/emaniooo" target="_blank">github.com/emanabubeker</a>
+    </div>
+
+  </div>
+
+
+</section>
+
+<footer class="footer">
+  <p>© 2026 Eman Fethi · Built with love and curiosity </p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
